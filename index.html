@@ -11,25 +11,52 @@
   </head>
   <body>
 
-      <nav class="navbar">
-          <a href="#" class= "logo">Logo</a>
-            <ul class="nav-links">
-              <li><a href="#competences">MES COMPÉTENCES ↗</a></li>
-              <li><a href="#projets">MES PROJETS ↗</a></li>
-              <li><a href="#parcours">MON PARCOURS ↗</a></li>
-            </ul>
-          <a href="#contact" class="btn-nav">CONTACTEZ MOI ↗</a>
-      </nav>
+    <!-- ===================== NAV ===================== -->
+    <!-- Contenu peuplé par script.js -->
+    <nav class="navbar">
+      <a href="#" class="logo"></a>
+      <ul class="nav-links"></ul>
+      <a class="btn-nav"></a>
+    </nav>
 
+    <!-- ===================== HERO ===================== -->
+    <!-- Contenu peuplé par script.js -->
+    <header id="hero">
+      <h1></h1>
+      <p></p>
+    </header>
 
-      <header id ="hero">
-        <h1>Je donne <em>vie</em><br> à vos idées</h1>
-        <p>Je travail avec vous pour construire vos projet numériques</p>
-      </header>
+    <main>
 
-      <section id="competences" class="competences">
-        
+      <!-- ===================== COMPÉTENCES ===================== -->
+      <!-- Cartes peuplées par script.js -->
+      <section id="competences" class="competences"></section>
+
+      <!-- ===================== PROJETS ===================== -->
+      <!-- Cartes peuplées par script.js -->
+      <section id="projets" class="projets">
+        <h2>Mes projets</h2>
       </section>
-    
+
+      <!-- ===================== PARCOURS ===================== -->
+      <!-- Items peuplés par script.js -->
+      <section id="parcours" class="parcours">
+        <h2>Mon parcours</h2>
+        <ul class="parcours-liste"></ul>
+      </section>
+
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <!-- Contenu peuplé par script.js (même données que nav) -->
+    <footer class="navbar">
+      <span class="logo"></span>
+      <ul class="nav-links"></ul>
+      <a class="btn-nav"></a>
+    </footer>
+
+    <!-- script.js charge data.json et peuple toute la page -->
+    <script src="script-correction.js"></script>
+
   </body>
 </html>
